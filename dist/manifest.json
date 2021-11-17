@@ -1,0 +1,10 @@
+{
+  "name": "Kambi Json Compiler",
+  "id": "1042723282061249390",
+  "api": "1.0.0",
+  "editorType": [
+    "figma"
+  ],
+  "main": "code.js",
+  "ui": "index.html"
+}

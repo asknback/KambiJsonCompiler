@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles/bulma.css">
+        <link rel="stylesheet" href="./tmp/styles.css">
+    </head>
+    <body>
+
+    <div id="form_wrapper" class="form_wrapper">
+        <div id="sport_wrapper" class="select is-small is-primary">
+            <!-- <label for="sport">Event group 1:</label> -->
+            <select name="sport" id="sport_drop" disabled>
+            <option value="">-</option>
+            </select>
+        </div>
+        <div id="country_wrapper" class="select is-small is-primary">
+            <!-- <label for="country">Event group 2:</label> -->
+            <select name="country" id="country_drop" disabled>
+            <option value="">-</option>
+            </select> 
+        </div>
+        <div id="league_wrapper" class="select is-small is-primary">
+            <!-- <label for="league">Event group 3:</label> -->
+            <select name="league" id="league_drop" disabled>
+            <option value="">-</option>
+            </select>
+        </div>
+        <div id="createJson_wrapper" class="">
+            <button id="cancel_button" class='button is-small'>CANCEL</button>
+            <button id="createJson_button" class='button is-small is-primary'>DOWNLOAD JSON</button>
+        </div>
+    </div>
+
+    <script src="./tmp/scripts.js"></script>
+    </body>
+</html>
